@@ -58,8 +58,8 @@ typings/
 # dotenv environment variables file
 .env
 
-# Output of build
-dist
+# Output of test
+test/build
 
 # Webstorm project files
 .idea

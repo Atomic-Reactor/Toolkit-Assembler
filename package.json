@@ -1,23 +1,44 @@
 {
-  "name": "toolkit-assembler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "atomic-reactor-toolkit-assembler",
+  "version": "2.0.1",
+  "description": "Assembler for the Atomic Reactor Toolkit",
+  "main": "lib/assembler.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Cam Tullos <cam@tullos.ninja> (http://cam.tullos.ninja)",
-  "license": "MIT",
   "dependencies": {
+    "bytes.js": "^0.0.2",
+    "camelcase": "^4.1.0",
+    "decamelize": "^2.0.0",
     "directory-tree": "^2.0.0",
+    "fs-extra": "^5.0.0",
     "globby": "^7.1.1",
     "gray-matter": "^3.1.1",
-    "gulp": "^3.9.1",
-    "handlebars": "^4.0.11",
+    "html-minifier": "^3.5.8",
     "lodash": "^4.17.4",
+    "markdown": "^0.5.0",
     "slug": "^0.9.1"
-  }
+  },
+  "devDependencies": {
+    "json-stringify-pretty-compact": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atomic-Reactor/Toolkit-Assembler.git"
+  },
+  "keywords": [
+    "atomic",
+    "reactor",
+    "assembler"
+  ],
+  "author": "Cam Tullos <cam@tullos.ninja> (http://cam.tullos.ninja)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atomic-Reactor/Toolkit-Assembler/issues"
+  },
+  "homepage": "https://github.com/Atomic-Reactor/Toolkit-Assembler#readme"
 }
