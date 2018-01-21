@@ -9,6 +9,7 @@ const toolkit = assembler({
     src: {
         root        : 'test/toolkit',
         data        : ['test/toolkit/data'],
+        layouts     : ['test/toolkit/layouts'],
         catalyst    : ['test/toolkit/catalyst'],
         elements    : ['test/toolkit/elements'],
         templates   : ['test/toolkit/templates'],
