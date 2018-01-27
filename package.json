@@ -1,6 +1,6 @@
 {
   "name": "atomic-reactor-toolkit-assembler",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Assembler for the Atomic Reactor Toolkit",
   "main": "lib/assembler.js",
   "directories": {
