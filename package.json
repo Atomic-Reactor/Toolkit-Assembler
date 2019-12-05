@@ -9,19 +9,19 @@
   },
   "dependencies": {
     "bytes.js": "^0.0.2",
-    "camelcase": "^4.1.0",
-    "decamelize": "^2.0.0",
+    "camelcase": "^5.3.1",
+    "decamelize": "^3.2.0",
     "directory-tree": "^2.0.0",
-    "fs-extra": "^5.0.0",
-    "globby": "^7.1.1",
-    "gray-matter": "^3.1.1",
-    "html-minifier": "^3.5.8",
+    "fs-extra": "^8.1.0",
+    "globby": "^10.0.1",
+    "gray-matter": "^4.0.2",
+    "html-minifier": "^4.0.0",
     "lodash": "^4.17.4",
     "markdown": "^0.5.0",
-    "slug": "^0.9.1"
+    "slug": "^1.1.0"
   },
   "devDependencies": {
-    "json-stringify-pretty-compact": "^1.1.0"
+    "json-stringify-pretty-compact": "^2.0.0"
   },
   "scripts": {
     "test": "node test/index.js"
